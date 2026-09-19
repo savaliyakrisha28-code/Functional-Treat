@@ -5,6 +5,9 @@
   A Python-based console application for analyzing, filtering, sorting, and transforming numerical data.
 </p>
 
+<p align="center">
+  <b>Author:</b> Krisha Savaliya
+</p>
 ---
 
 ## 📌 PROJECT DESCRIPTION
@@ -72,61 +75,6 @@ This project is designed for beginners to practice Python programming concepts t
 
 ---
 
-## 🧠 PYTHON CONCEPTS USED
-
-- Variables
-- Lists
-- Functions
-- Global variables
-- Conditional statements
-- `while` loop
-- `match-case`
-- Recursion
-- Lambda function
-- `filter()` function
-- `sorted()` function
-- Built-in functions
-- Formatted strings
-- User input and output
-
----
-
-## 📂 PROJECT STRUCTURE
-
-```text
-Data-Analyzer-and-Transformer/
-│
-├── data_analyzer.py
-│
-└── README.md
-```
-
-### File Description
-
-| File | Description |
-|---|---|
-| `data_analyzer.py` | Main Python program |
-| `README.md` | Project documentation |
-
----
-
-## 📋 MAIN MENU
-
-```text
-Welcome to the data Analyzer and transformer program
-
-Main menu:
-1. Input Data
-2. Display Summary
-3. Calculate Factorial
-4. Filter Data
-5. Sort Data
-6. Dataset Statistics
-7. Exit
-```
-
----
-
 ## 🔍 FUNCTIONALITIES
 
 ### 1. Input Data
@@ -186,6 +134,44 @@ Calculates and displays the minimum, maximum, sum, and average of the dataset.
 
 ---
 
+
+## 🧠 PYTHON CONCEPTS USED
+
+- Variables
+- Lists
+- Functions
+- Global variables
+- Conditional statements
+- `while` loop
+- `match-case`
+- Recursion
+- Lambda function
+- `filter()` function
+- `sorted()` function
+- Built-in functions
+- Formatted strings
+- User input and output
+
+---
+
+## 📂 PROJECT STRUCTURE
+
+```text
+Data-Analyzer-and-Transformer/
+│
+├── data_analyzer.py
+│
+└── README.md
+```
+
+### File Description
+
+| File | Description |
+|---|---|
+| `data_analyzer.py` | Main Python program |
+| `README.md` | Project documentation |
+
+
 ## 📚 LEARNING OUTCOMES
 
 After completing this project, I learned:
@@ -209,6 +195,25 @@ After completing this project, I learned:
 - Add a search functionality.
 - Improve input validation.
 - Add more mathematical and statistical operations.
+
+---
+
+---
+
+## 📋 MAIN MENU
+
+```text
+Welcome to the data Analyzer and transformer program
+
+Main menu:
+1. Input Data
+2. Display Summary
+3. Calculate Factorial
+4. Filter Data
+5. Sort Data
+6. Dataset Statistics
+7. Exit
+```
 
 ---
 
