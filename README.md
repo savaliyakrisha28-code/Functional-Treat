@@ -8,13 +8,13 @@
 <p align="center">
   <b>Author:</b> Krisha Savaliya
 </p>
----
+
 
 ## 📌 PROJECT DESCRIPTION
 
-The **Data Analyzer and Transformer** is a menu-driven Python application that allows users to enter and analyze a one-dimensional array of numbers.
+The **Data Analyzer and Transformer** is a menu-driven Python console application that allows users to enter and analyze a one-dimensional array of numbers.
 
-The project provides different operations such as displaying data summaries, calculating factorials, filtering data, sorting values, and calculating dataset statistics.
+The project provides various operations, such as displaying data summaries, calculating factorials, filtering data, sorting values, and calculating dataset statistics.
 
 This project is designed for beginners to practice Python programming concepts through a practical application.
 
@@ -25,7 +25,7 @@ This project is designed for beginners to practice Python programming concepts t
 - To understand one-dimensional arrays using Python lists.
 - To perform basic mathematical operations on data.
 - To calculate the factorial of a number using recursion.
-- To filter data using the `filter()` function and lambda expression.
+- To filter data using the `filter()` function and lambda expressions.
 - To sort data in ascending and descending order.
 - To calculate minimum, maximum, sum, and average values.
 - To practice functions and menu-driven programming.
@@ -34,35 +34,42 @@ This project is designed for beginners to practice Python programming concepts t
 
 ## ✨ FEATURES
 
-1. **Input Data**
-   - Accepts numerical values separated by spaces.
-   - Stores the values in a Python list.
+### 1. Input Data
 
-2. **Display Summary**
-   - Displays the total number of elements.
-   - Finds the maximum and minimum values.
-   - Calculates the sum and average.
+- Accepts numerical values separated by spaces.
+- Stores the values in a Python list.
 
-3. **Calculate Factorial**
-   - Calculates the factorial of a number using recursion.
-   - Handles negative numbers.
+### 2. Display Summary
 
-4. **Filter Data**
-   - Filters values greater than a user-defined threshold.
-   - Uses the `filter()` function and lambda expression.
+- Displays the total number of elements.
+- Finds the maximum and minimum values.
+- Calculates the sum and average of the data.
 
-5. **Sort Data**
-   - Sorts data in ascending order.
-   - Sorts data in descending order.
+### 3. Calculate Factorial
 
-6. **Dataset Statistics**
-   - Displays minimum value.
-   - Displays maximum value.
-   - Displays total sum.
-   - Displays average with two decimal places.
+- Calculates the factorial of a number using recursion.
+- Handles negative numbers with appropriate validation.
 
-7. **Exit**
-   - Closes the application safely.
+### 4. Filter Data
+
+- Filters values greater than a user-defined threshold.
+- Uses the `filter()` function and lambda expression.
+
+### 5. Sort Data
+
+- Sorts data in ascending order.
+- Sorts data in descending order.
+
+### 6. Dataset Statistics
+
+- Displays the minimum value.
+- Displays the maximum value.
+- Displays the total sum.
+- Displays the average with two decimal places.
+
+### 7. Exit
+
+- Closes the application safely.
 
 ---
 
@@ -81,7 +88,7 @@ This project is designed for beginners to practice Python programming concepts t
 
 The user enters numbers separated by spaces. The program converts the input into a list of integers.
 
-Example:
+**Example:**
 
 ```text
 Enter data for a 1D array (separated by spaces): 10 20 30 40 50
@@ -89,19 +96,19 @@ Enter data for a 1D array (separated by spaces): 10 20 30 40 50
 
 ### 2. Display Summary
 
-Displays basic information about the dataset:
+The program displays basic information about the dataset:
 
-- Total elements
+- Total number of elements
 - Maximum value
 - Minimum value
-- Sum
-- Average
+- Sum of all values
+- Average value
 
 ### 3. Calculate Factorial
 
 The program uses recursion to calculate the factorial of a given number.
 
-Example:
+**Example:**
 
 ```text
 Enter a number to calculate its factorial: 5
@@ -110,12 +117,12 @@ Factorial of 5 is: 120
 
 ### 4. Filter Data
 
-Filters and displays values greater than the entered threshold.
+The program filters and displays values greater than the entered threshold.
 
-Example:
+**Example:**
 
 ```text
-Enter a threshold value to Filter out data above this value: 25
+Enter a threshold value to filter data above this value: 25
 Filtered data: [30, 40, 50]
 ```
 
@@ -130,10 +137,9 @@ The user can choose between two sorting options:
 
 ### 6. Dataset Statistics
 
-Calculates and displays the minimum, maximum, sum, and average of the dataset.
+The program calculates and displays the minimum, maximum, sum, and average of the dataset.
 
 ---
-
 
 ## 🧠 PYTHON CONCEPTS USED
 
@@ -143,13 +149,13 @@ Calculates and displays the minimum, maximum, sum, and average of the dataset.
 - Global variables
 - Conditional statements
 - `while` loop
-- `match-case`
+- `match-case` statement
 - Recursion
-- Lambda function
+- Lambda expressions
 - `filter()` function
 - `sorted()` function
 - Built-in functions
-- Formatted strings
+- Formatted strings (f-strings)
 - User input and output
 
 ---
@@ -171,6 +177,7 @@ Data-Analyzer-and-Transformer/
 | `data_analyzer.py` | Main Python program |
 | `README.md` | Project documentation |
 
+---
 
 ## 📚 LEARNING OUTCOMES
 
@@ -198,14 +205,12 @@ After completing this project, I learned:
 
 ---
 
----
-
 ## 📋 MAIN MENU
 
 ```text
-Welcome to the data Analyzer and transformer program
+Welcome to the Data Analyzer and Transformer Program
 
-Main menu:
+Main Menu:
 1. Input Data
 2. Display Summary
 3. Calculate Factorial
@@ -219,26 +224,29 @@ Main menu:
 
 ## ▶️ HOW TO RUN
 
-1. Open the project in **Visual Studio Code**.
-2. Open the project folder.
-3. Open the terminal.
-4. Run the following command:
+Follow these steps to run the project:
+
+1. Install Python on your computer.
+2. Open the project in **Visual Studio Code**.
+3. Open the project folder.
+4. Open the terminal in Visual Studio Code.
+5. Run the following command:
 
 ```bash
 python data_analyzer.py
 ```
 
-5. Select an option from the main menu.
-6. Follow the instructions displayed on the screen.
+6. Select an option from the main menu.
+7. Follow the instructions displayed on the screen.
 
 ---
 
 ## 🖥️ SIMPLE OUTPUT
 
 ```text
-Welcome to the data Analyzer and transformer program
+Welcome to the Data Analyzer and Transformer Program
 
-Main menu:
+Main Menu:
 1. Input Data
 2. Display Summary
 3. Calculate Factorial
@@ -257,14 +265,14 @@ Please select an option (1-7): 2
 
 Data Summary:
 - Total Elements: 5
-- Maximum value: 50
-- Minimum value: 10
-- Sum of all values: 150
-- Average value: 30.0
+- Maximum Value: 50
+- Minimum Value: 10
+- Sum of All Values: 150
+- Average Value: 30.00
 
 Please select an option (1-7): 7
 
-Thank you for using the data Analyzer and transformer program.
+Thank you for using the Data Analyzer and Transformer Program.
 Goodbye!
 ```
 
@@ -274,8 +282,9 @@ Goodbye!
 
 **Status:** Completed ✅
 
-This project was created for learning and practicing Python programming concepts.
+This project was created for learning and practicing Python programming concepts through a practical console-based application.
 
+---
 
 <p align="center">
   ⭐ Thank you for visiting this project! ⭐
